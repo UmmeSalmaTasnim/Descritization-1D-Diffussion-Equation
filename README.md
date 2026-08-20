@@ -1,6 +1,6 @@
-This MATLAB code implements the Jacobi iterative method to solve 1D Laplace equation using the finite difference method, with a convergence tolerance of 1e-7.
+This MATLAB code implements the Jacobi iterative method to solve 1D Laplace equation using the finite difference method, with a convergence tolerance of ```math 10^{-7} ``` (or 1e-7 in MATLAB notation).
 
-> This MATLAB code implements the Jacobi iterative method to solve 1D Laplace equation using the finite difference method, with a convergence tolerance of 1e-7.
+> This MATLAB code implements the Jacobi iterative method to solve 1D Laplace equation using the finite difference method, with a convergence tolerance of ```math 10^{-7} ```.
 
 > The problem is defined as:
 >
@@ -15,7 +15,3 @@ This MATLAB code implements the Jacobi iterative method to solve 1D Laplace equa
 > ```
 
 >
-
-
-
-
