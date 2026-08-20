@@ -27,15 +27,6 @@ The script prints the iteration count and final error, displays the numerical so
 - Convergence of the Jacobi method (error magnitude vs iteration).
 - Exact solution vs Jacobi numerical solution.
 
-If you want to save the plots from the script automatically, add these lines after each figure block, for example:
-
-```matlab
-% After convergence plot
-saveas(gcf, 'Convergence.png')
-
-% After exact vs numerical plot
-saveas(gcf, 'Exact Vs Numerical solution.png')
-```
 
 ## Parameters
 
@@ -58,11 +49,11 @@ This section shows the actual output produced by running `Solution of 1D Laplace
 Number of iterations = 46
 Final error = 5.9604644775e-08
 Numerical solution:
-         0    0.2500    0.5000    0.7500    1.0000
+         y = 0    0.2500    0.5000    0.7500    1.0000
 
 
 Comparison of solutions:
-       x       Y_Exact   Y_Numerical        Error
+       X      Exact(Y)    Numerical(Y)             Error
     0.00      0.000000      0.000000        0.000000e+00
     0.25      0.250000      0.250000        5.960464e-08
     0.50      0.500000      0.500000        5.960464e-08
@@ -95,8 +86,3 @@ Exact solution vs Jacobi numerical solution:
 ## Notes and suggestions
 
 - The Jacobi method converges to the analytic linear profile y(x)=x. With larger `n_points` the number of iterations to reach the same tolerance grows — consider Gauss-Seidel, Successive Over-Relaxation (SOR), or direct solvers for faster convergence.
-- To reproduce the saved PNGs automatically, add `saveas` calls (examples above) to the script.
-
-If you want, I can also:
-- Add an automated script to run for multiple grid sizes and save convergence-rate data, or
-- Modify the script to save figures automatically and commit the generated PNGs.
