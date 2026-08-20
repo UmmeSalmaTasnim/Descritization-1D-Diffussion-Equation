@@ -3,7 +3,7 @@ The problem is defined as:
 ```math
 \frac{d^2y}{dx^2}=0,\qquad 0\leq x\leq1
 
-subject to the boundary conditions:
+**Subject to the boundary conditions:**
 
 y(0)=0,\qquad y(1)=1.
 
