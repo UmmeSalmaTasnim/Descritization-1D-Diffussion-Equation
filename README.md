@@ -14,9 +14,10 @@ y(0) = 0,  y(1) = 1
 
 ## Files
 
-- `Solution of 1D Laplace equation.m` — MATLAB script that sets up the 1D mesh, applies Dirichlet boundary conditions, performs Jacobi iterations until the error is below 1e-7, and plots/summarizes results.
+- `Solution of 1D Laplace equation.m` — MATLAB script that sets up the 1D mesh, applies Dirichlet boundary conditions, performs Jacobi iterations until the error is below 1e-7, and plots/summari[...]
 - `Convergence.png` — Convergence plot (error vs iteration).
 - `Exact Vs Numerical solution.png` — Comparison plot of the exact analytical solution versus the Jacobi numerical solution.
+- `Plot_result_Difussion.png` — First result figure (initial plot produced by the script).
 
 ## How to use
 
@@ -75,6 +76,10 @@ Maximum absolute error: 5.9604644775e-08
 
 ## Plots
 
+First result plot (initial figure):
+
+![Plot result Diffusion](Plot_result_Difussion.png)
+
 Convergence plot (error magnitude vs iteration):
 
 ![Convergence](Convergence.png)
@@ -85,4 +90,5 @@ Exact solution vs Jacobi numerical solution:
 
 ## Notes and suggestions
 
-- The Jacobi method converges to the analytic linear profile y(x)=x. With larger `n_points` the number of iterations to reach the same tolerance grows — consider Gauss-Seidel, Successive Over-Relaxation (SOR), or direct solvers for faster convergence.
+- The Jacobi method converges to the analytic linear profile y(x)=x. With larger `n_points` the number of iterations to reach the same tolerance grows — consider Gauss-Seidel, Successive Over-Re[...]
+
