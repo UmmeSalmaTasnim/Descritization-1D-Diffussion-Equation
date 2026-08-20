@@ -5,6 +5,7 @@ The problem is defined as:
 
 subject to the boundary conditions:
 
-$$
-y(0)=0,\qquad y(1)=1
-$$
+\[
+y(0)=0,\qquad y(1)=1.
+\]
+
