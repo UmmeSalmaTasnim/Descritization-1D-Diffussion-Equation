@@ -34,4 +34,11 @@ end
 %% plotting
 x_dom = ((1:n_points)-1)*h;
 figure;
-plot(x_dom,y)
+plot(x_dom, y, 'r-o')          % plot
+xlabel('x', 'FontSize', 14)                     % label with unit and size
+ylabel('y', 'FontSize', 14)
+title('Numerical solution', 'FontSize', 16)          % axis tick label size
+xticks(0:0.25:1)                                    % set tick locations if desired
+xticklabels({'0','0.25','0.5','0.75','1'})
+yticks(y)
+grid on
