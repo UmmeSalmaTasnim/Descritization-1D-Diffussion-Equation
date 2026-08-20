@@ -7,9 +7,8 @@ This MATLAB code implements the Jacobi iterative method to solve 1D Laplace equa
 >
 > **Subject to the boundary conditions:**
 >
-> \[
 > y(0)=0,\qquad y(1)=1
-> \]
+>
 
 
 
