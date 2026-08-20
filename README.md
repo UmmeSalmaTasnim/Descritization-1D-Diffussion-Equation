@@ -2,9 +2,8 @@ This MATLAB code implements the Jacobi iterative method to solve 1D Laplace equa
 
 > The problem is defined as:
 >
-> \[
-> \frac{d^2y}{dx^2}=0,\qquad 0\leq x\leq1
-> \]
+> ```math
+\frac{d^2y}{dx^2}=0,\qquad 0\leq x\leq1
 >
 > **Subject to the boundary conditions:**
 >
