@@ -46,6 +46,31 @@ The script generates a plot of the numerical solution:
 
 Note: Increase `n_points` to see how grid refinement affects the solution representation.
 
+## Results
+
+### Example Output (n_points = 5)
+
+| Grid Point | x-value | y-value |
+|:----------:|:-------:|:-------:|
+| 1 | 0.0000 | 0.0000 |
+| 2 | 0.2500 | 0.2500 |
+| 3 | 0.5000 | 0.5000 |
+| 4 | 0.7500 | 0.7500 |
+| 5 | 1.0000 | 1.0000 |
+
+**Convergence Information:**
+- Convergence Tolerance: 1.0 × 10<sup>-7</sup>
+- Number of Iterations: 138
+- Final Error: < 1.0 × 10<sup>-7</sup>
+
+### Solution Plot
+
+![Numerical Solution](Figure_1.png)
+
+The numerical solution approaches a linear function from y(0) = 0 to y(1) = 1, which is the exact analytical solution for this Laplace equation problem.
+
+**Note:** The Jacobi method converges to the theoretical solution y = x over the domain [0, 1].
+
 ## Main script
 
 See the implementation: `Descritization_1D_diffusion_equation.m`
