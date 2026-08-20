@@ -65,7 +65,7 @@ Note: Increase `n_points` to see how grid refinement affects the solution repres
 
 ### Solution Plot
 
-![Numerical Solution](Figure_1.png)
+![Numerical Solution](Plot_result_Difussion.png)
 
 The numerical solution approaches a linear function from y(0) = 0 to y(1) = 1, which is the exact analytical solution for this Laplace equation problem.
 
