@@ -1,6 +1,6 @@
 # Discretization of the 1D Diffusion (Laplace) Equation
 
-This MATLAB code implements the Jacobi iterative method to solve the 1D Laplace equation using the finite difference method, with a convergence tolerance of 10^-7.
+This MATLAB code implements the Jacobi iterative method to solve the 1D Laplace equation using the finite difference method, with a convergence tolerance of $10^{-7}$.
 
 ## Problem definition
 
@@ -14,17 +14,17 @@ y(0) = 0,  y(1) = 1
 
 ## Files
 
-- `Solution of 1D Laplace equation.m` — MATLAB script that sets up the 1D mesh, applies Dirichlet boundary conditions, performs Jacobi iterations until the error is below 1e-7, and plots/summari[...]
+- `Solution of 1D Laplace equation.m` — MATLAB script that sets up the 1D mesh, applies Dirichlet boundary conditions, performs Jacobi iterations until the error is below 1e-7.
 - `Convergence.png` — Convergence plot (error vs iteration).
 - `Exact Vs Numerical solution.png` — Comparison plot of the exact analytical solution versus the Jacobi numerical solution.
-- `Plot_result_Difussion.png` — First result figure (initial plot produced by the script).
-
+- `Plot_result_Difussion.png` — plot shows numerical solution.
 ## How to use
 
 1. Open MATLAB (or GNU Octave with mostly compatible behavior).
 2. Open `Solution of 1D Laplace equation.m` and run the script.
 
-The script prints the iteration count and final error, displays the numerical solution, and plots two figures:
+The script prints the iteration count and final error, displays the numerical solution, and plots three figures:
+- Numerical solution
 - Convergence of the Jacobi method (error magnitude vs iteration).
 - Exact solution vs Jacobi numerical solution.
 
@@ -88,7 +88,7 @@ Exact solution vs Jacobi numerical solution:
 
 ![Exact vs Numerical](Exact%20Vs%20Numerical%20solution.png)
 
-## Notes and suggestions
+## Notes 
 
-- The Jacobi method converges to the analytic linear profile y(x)=x. With larger `n_points` the number of iterations to reach the same tolerance grows — consider Gauss-Seidel, Successive Over-Re[...]
+- The Jacobi method converges to the analytic linear profile y(x)=x. With larger `n_points` the number of iterations to reach the same tolerance grows.
 
