@@ -54,7 +54,7 @@ Numerical solution:
 
 
 Comparison of solutions:
-       X      Exact(Y)    Numerical(Y)             Error
+       X      Exact(Y)   Numerical(Y)              Error
     0.00      0.000000      0.000000        0.000000e+00
     0.25      0.250000      0.250000        5.960464e-08
     0.50      0.500000      0.500000        5.960464e-08
@@ -76,7 +76,7 @@ Maximum absolute error: 5.9604644775e-08
 
 ## Plots
 
-First result plot (initial figure):
+Numerical Solution plot:
 
 ![Plot result Diffusion](Plot_result_Difussion.png)
 
