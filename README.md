@@ -1,1 +1,2 @@
-This is a MATLAB code for the discretization of a diffusion equation using five-point scheme. This code computes values of y at each discretized point.
+This is MATLAB code implementing Jacobi iterative method to solve 1D Laplace equation using the finite difference method in MATLAB, with a convergence tolerance of 10
+−7.
